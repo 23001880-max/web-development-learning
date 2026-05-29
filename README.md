@@ -212,35 +212,7 @@ Nguồn học:
 
 ---
 
-## 5. Quy định lưu ảnh minh chứng
-
-Nên đặt tên ảnh theo dạng dễ hiểu:
-
-```text
-html/html-quiz-result.png
-html/html-exercise-01.png
-css/css-quiz-result.png
-css/css-exercise-01.png
-js/javascript-quiz-result.png
-jq/jquery-quiz-result.png
-sql/sql-quiz-result.png
-debug/chrome-breakpoint-example.png
-C#/aspnet-mvc-example-01.png
-Razor/razor-example-01.png
-LINQ/linq-example-01.png
-```
-
-Hoặc có thể đặt theo ngày hoàn thành:
-
-```text
-html/2026-01-01-html-quiz.png
-css/2026-01-02-css-exercise.png
-js/2026-01-03-javascript-quiz.png
-```
-
----
-
-## 6. Bảng theo dõi tiến độ
+## 5. Bảng theo dõi tiến độ
 
 | STT | Nội dung | Minh chứng | Trạng thái |
 |---:|---|---|---|
@@ -267,57 +239,6 @@ js/2026-01-03-javascript-quiz.png
 
 ---
 
-## 7. Cách cập nhật repository
-
-Sau khi thêm ảnh minh chứng mới vào các thư mục, chạy các lệnh sau:
-
-```bash
-git add .
-git commit -m "Update learning evidence screenshots"
-git push
-```
-
-Nếu chỉ cập nhật README:
-
-```bash
-git add README.md
-git commit -m "Update README for learning evidence repository"
-git push
-```
-
----
-
-## 8. Xử lý lỗi Git thường gặp
-
-Nếu gặp lỗi:
-
-```text
-! [rejected] main -> main (non-fast-forward)
-```
-
-Chạy:
-
-```bash
-git pull origin main --allow-unrelated-histories
-git push -u origin main
-```
-
-Nếu repository trên GitHub không có nội dung quan trọng và muốn ghi đè bằng nội dung trên máy:
-
-```bash
-git push -u origin main --force
-```
-
----
-
-## 9. Thông tin sinh viên
-
-**Họ và tên:** Phạm Dương Hoàng  
-**Mã sinh viên:** 23001880  
-**Repository:** https://github.com/23001880-max/web-development-learning
-
----
-
-## 10. Ghi chú
+## 6. Ghi chú
 
 Repository này được xây dựng nhằm phục vụ mục đích học tập, lưu trữ minh chứng và chứng minh quá trình hoàn thành các nội dung học lập trình Web cơ bản.
